@@ -3,7 +3,7 @@ import sys
 def add(a, b):
     return a + b
 
-if name == "main":
+if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: python add.py <num1> <num2>")
         sys.exit(1)
